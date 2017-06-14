@@ -1,7 +1,7 @@
 <html>
 <head>
-  <link href="/assets/css/sample-app.css" rel="stylesheet" type="text/css"></link>
-  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
+  <link href="assets/css/sample-app.css" rel="stylesheet" type="text/css"></link>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
   <title>Cronofy Sample App</title>
 </head>
 

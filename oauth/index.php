@@ -3,7 +3,7 @@ $GLOBALS['SKIP_AUTH'] = true;
 
 require '../config.php';
 
-$redirect_uri = $GLOBALS['DOMAIN'] . '/oauth/';
+$redirect_uri = $GLOBALS['DOMAIN'] . 'oauth/';
 
 if (!isset($_GET['code'])) {
   $authorizationUrl = $cronofy->getAuthorizationUrl(array(

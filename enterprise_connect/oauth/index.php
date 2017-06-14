@@ -33,10 +33,10 @@ if (!isset($_GET['code'])) {
 
     DebugLog("Service Account credentials stored - fileName=`" . $fileName . "`");
 
-    header('Location: ' . $GLOBALS['DOMAIN'] . '/enterprise_connect/');
+    header('Location: ' . $GLOBALS['DOMAIN'] . 'enterprise_connect/');
   } catch(CronofyException $ex) {
     DebugLog("Service Account OAuth unsuccessful - " . print_r($ex->error_details(), true));
   } finally {
-    header('Location: ' . $GLOBALS['DOMAIN'] . '/enterprise_connect/');
+    header('Location: ' . $GLOBALS['DOMAIN'] . 'enterprise_connect/');
   }
 }
